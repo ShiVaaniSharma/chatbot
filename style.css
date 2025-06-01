@@ -61,7 +61,7 @@ body {
 .bot-message {
     background-color: #ffffff; /* White for bot */
     align-self: flex-start; /* Align bot messages to the left */
-    border-bottom-left-radius: 5px; /* Slightly different corner */
+    border-bottom-left-radius: 5px;
 }
 
 .message p {
@@ -74,21 +74,21 @@ body {
     padding: 10px;
     border-top: 1px solid #ccc;
     background-color: #f0f0f0;
-    flex-shrink: 0; /* Prevent input area from shrinking */
+    flex-shrink: 0; 
 }
 
 #user-input {
-    flex-grow: 1; /* Input takes up most space */
+    flex-grow: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-right: 10px;
-    outline: none; /* Remove default focus outline */
+    outline: none; 
 }
 
 #send-button {
     padding: 10px 15px;
-    background-color: #4a90e2; /* Match header color */
+    background-color: #4a90e2; 
     color: white;
     border: none;
     border-radius: 20px;
@@ -97,5 +97,5 @@ body {
 }
 
 #send-button:hover {
-    background-color: #357abd; /* Darker blue on hover */
+    background-color: #357abd; 
 }
