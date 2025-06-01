@@ -44,7 +44,7 @@ body {
 }
 
 .message {
-    max-width: 75%; /* Max width of message bubbles */
+    max-width: 75%; 
     padding: 8px 12px;
     margin-bottom: 10px;
     border-radius: 15px;
